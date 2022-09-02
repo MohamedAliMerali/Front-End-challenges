@@ -32,11 +32,13 @@ nav {
 .main {
   height: 30vh;
   max-height: 150px;
+  max-width: 1067px;
   padding: 1rem;
   margin: 0 auto;
   /* width: 90%; */
   border-radius: 20px;
-  background-color: #704dd9;
+  background: linear-gradient(90deg, #7274bf, #2681c8);
+  /* background-color: #704dd9; */
 }
 
 h2 {
@@ -51,13 +53,22 @@ h2 {
 }
 
 input {
+  display: block;
   padding: 1rem;
-  margin: 2rem auto;
+  margin: 2rem 0;
   width: 90%;
-  max-width: ;
+  max-width: 300px;
   border-radius: 2rem;
   outline: 0;
   border: 0;
+}
+
+.book {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  float: right;
+  display: none;
 }
 
 .heading {
@@ -66,25 +77,25 @@ input {
 }
 
 h3 {
-  margin: auto;
+  margin: 1rem auto;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .card {
   min-width: 140px;
-  width: 13vw;
-  height: 13vw;
+  width: 130px;
+  height: 130px;
   /* max-width: ; */
   /* max-height: ; */
   box-sizing: border-box;
-  /* margin: 1rem; */
+  margin: 2rem auto;
   /* background-color: darkolivegreen; */
   text-align: center;
 }
@@ -95,4 +106,11 @@ h3 {
   box-sizing: border-box;
   background-color: gold;
   border-radius: 10%;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  object-fit: cover;
 }
