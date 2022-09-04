@@ -20,13 +20,25 @@ body {
   text-transform: capitalize;
 }
 /* /////////////////////////////////// */
+.header {
+  height: 10vh;
+}
+
+.header h1 {
+  float: left;
+}
 
 nav {
   float: right;
 }
 
-.header {
-  height: 10vh;
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 .main {
