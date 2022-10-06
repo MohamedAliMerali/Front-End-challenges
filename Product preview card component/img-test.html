@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../normalize.css">
+    <title>Img test</title>
+    <style>
+        * {
+            border: 2px solid black;
+            box-sizing: border-box;
+        }
+
+        img {
+            object-fit: cover;
+            width: 300px;
+            height: 300px;
+            /* width: auto;
+            height: 100%; */
+            /* width: 100%;
+            height: auto; */
+        }
+
+        @media screen and (min-width: 700px) {
+            img {
+                width: 600px;
+                height: auto;
+            }
+        }
+
+        #img {
+            /* width: auto; */
+            margin: 0px auto;
+            display: inline;
+        }
+
+        /* background-image: url(images/image-product-mobile.jpg); */
+
+        /* @media screen and (min-width: 700px) {
+            #img {
+                width: 700px;
+                height: 700px;
+                background-image: url(images/image-product-desktop.jpg);
+                background-repeat: no-repeat;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="img">
+        <img src="images/image-product-desktop.jpg" alt="test">
+    </div>
+
+</body>
+
+</html>
