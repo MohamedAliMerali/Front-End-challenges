@@ -1,0 +1,69 @@
+* {
+  /* border: 2px solid black; */
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+
+  --neutral-very-dark-blue-main-BG: hsl(217, 54%, 11%);
+  --neutral-very-dark-blue-card-BG: hsl(216, 50%, 16%);
+  --neutral-very-dark-blue-line: hsl(215, 32%, 27%);
+}
+
+body {
+  font-family: Outfit;
+  font-size: 1.5rem;
+  background-color: var(--neutral-very-dark-blue-main-BG);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  background-color: var(--neutral-very-dark-blue-card-BG);
+  margin: 30px 0;
+  width: 90%;
+  max-width: 300px;
+  padding: 20px;
+}
+
+#equilibrium-container {
+  /* border-radius: var(--radius-value); */
+  line-height: 0;
+  position: relative;
+}
+
+#pricing-offer {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+#creator {
+  border-top: 2px solid var(--neutral-very-dark-blue-line);
+}
+
+#creator-avatar {
+  width: 35px;
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+  border-radius: 100%;
+}
+
+#creator-username {
+  padding: 1.7rem 0;
+
+  /* display: inline-block; */
+  /* height: 54px; */
+  /* vertical-align: middle; */
+
+  /* float: left; */
+}
