@@ -1,0 +1,16 @@
+* {
+  /* border: 2px black solid; */
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --border-radius-value: 20px;
+
+  --primary-Pale-blue: hsl(225, 100%, 94%);
+  --primary-Bright-blue: hsl(245, 75%, 52%);
+
+  --neutral-Very-pale-blue: hsl(225, 100%, 98%);
+  --neutral-Desaturated-blue: hsl(224, 23%, 55%);
+  --neutral-Dark-blue: hsl(223, 47%, 23%);
+}
