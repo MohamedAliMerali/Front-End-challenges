@@ -1,11 +1,12 @@
 * {
-  /* border: 2px black solid; */
+  /* border: 2px solid black; */
   box-sizing: border-box;
 }
 
 :root {
   font-size: 62.5%;
   --border-radius-value: 20px;
+  --normal-radius-value: 10px;
 
   --primary-Pale-blue: hsl(225, 100%, 94%);
   --primary-Bright-blue: hsl(245, 75%, 52%);
@@ -13,4 +14,84 @@
   --neutral-Very-pale-blue: hsl(225, 100%, 98%);
   --neutral-Desaturated-blue: hsl(224, 23%, 55%);
   --neutral-Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: var(--primary-Pale-blue);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#order-card {
+  text-align: center;
+  background-color: whitesmoke;
+  width: 95%;
+  max-width: 350px;
+  margin: 50px 0;
+  border-bottom-right-radius: var(--border-radius-value);
+  border-bottom-left-radius: var(--border-radius-value);
+}
+
+#order-card-info {
+  padding: 0 2.8rem;
+}
+
+#plan {
+  border-radius: var(--normal-radius-value);
+  margin: 1.6rem 0;
+}
+
+#illustration-img {
+  border-top-right-radius: var(--border-radius-value);
+  border-top-left-radius: var(--border-radius-value);
+}
+
+h1 {
+  font-size: 1.9rem;
+  margin: 1.6rem;
+}
+
+.neutral-Desaturated-blue {
+  color: var(--neutral-Desaturated-blue);
+}
+
+.BG-neutral-Desaturated-blue {
+  background-color: var(--primary-Pale-blue);
+}
+
+#plan {
+  padding: 1rem;
+}
+
+#music-icon {
+  background-color: var(--neutral-Desaturated-blue);
+  padding: 1rem;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 100%;
+  float: left;
+}
+
+#plan-price {
+  float: left;
+}
+
+.btn {
+  color: var(--primary-Pale-blue);
+  background-color: var(--primary-Bright-blue);
+  width: 100%;
+  padding: 1rem;
+  border: 0;
+  border-radius: var(--normal-radius-value);
+}
+
+.btn:hover {
+  background-color: var(--neutral-Dark-blue);
+  cursor: pointer;
 }
