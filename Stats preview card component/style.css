@@ -1,0 +1,48 @@
+* {
+  /* border: 2px solid black; */
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  /* (main background) */
+  --primary-very-dark-blue: hsl(233, 47%, 7%);
+  /* (card background) */
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+
+  /* (main heading, stats) */
+  --neutral-white: hsl(0, 0%, 100%);
+  /* (main paragraph) */
+  --neutral-slightly-transparent-white-heading: hsla(0, 0%, 100%, 0.75);
+  /* (stat headings) */
+  --neutral-slightly-transparent-white-paragraph: hsla(0, 0%, 100%, 0.6);
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--primary-very-dark-blue);
+}
+
+/*  */
+.soft-violet {
+  color: var(--soft-violet);
+}
+.slightly-transparent-heading {
+  color: var(--neutral-slightly-transparent-white-heading);
+}
+
+/*  */
+
+#main {
+  background-color: var(--dark-desaturated-blue);
+}
+
+#paragraph {
+  color: var(--neutral-slightly-transparent-white-paragraph);
+}
+
+#heading {
+  color: var(--neutral-slightly-transparent-white-heading);
+}
