@@ -33,8 +33,8 @@ body {
   width: 95%;
   max-width: 350px;
   margin: 50px 0;
-  border-bottom-right-radius: var(--border-radius-value);
-  border-bottom-left-radius: var(--border-radius-value);
+  border-radius: var(--border-radius-value);
+  overflow: hidden;
 }
 
 #order-card-info {
@@ -44,11 +44,19 @@ body {
 #plan {
   border-radius: var(--normal-radius-value);
   margin: 1.6rem 0;
+  display: flex;
+  justify-content: space-between;
 }
 
+/* #change-btn a {
+  text-decoration: none;
+} */
+
 #illustration-img {
-  border-top-right-radius: var(--border-radius-value);
-  border-top-left-radius: var(--border-radius-value);
+  /* object-fit: cover; */
+  /* border-top-right-radius: var(--border-radius-value);
+  border-top-left-radius: var(--border-radius-value); */
+  
 }
 
 h1 {
@@ -85,6 +93,11 @@ h1 {
 .btn {
   color: var(--primary-Pale-blue);
   background-color: var(--primary-Bright-blue);
+
+  box-shadow: 5px 5px 15px 0px rgba(56, 41, 224, 1);
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(56, 41, 224, 1);
+  -moz-box-shadow: 5px 5px 15px 0px rgba(56, 41, 224, 1);
+
   width: 100%;
   padding: 1rem;
   border: 0;
@@ -94,4 +107,14 @@ h1 {
 .btn:hover {
   background-color: var(--neutral-Dark-blue);
   cursor: pointer;
+}
+#cancelBtn:hover {
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  outline: 0;
+  margin: 20px 0;
 }

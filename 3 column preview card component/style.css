@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Fonts */
+  font-size: 62.5%;
+  font-size: 70%;
+
+  /* Primary colors */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral colors */
+  --transparent-white: hsla(0, 0%, 100%, 0.5); /* paragraphs */
+  --very-light-gray: hsl(0, 0%, 95%); /* background, headings, buttons */
+}
+
+/* General */
+body {
+  font-size: 1.2rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: var(--very-light-gray);
+  font-size: 3rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Buttons */
+.btn {
+  font-family: inherit;
+  background-color: white;
+  padding: 1rem 2rem;
+  margin: 5rem 0 2rem;
+  border: 0;
+  border-radius: 30px;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.btn:hover {
+  color: white;
+  background-color: var(--transparent-white);
+}
+
+.btn-orange {
+  color: var(--bright-orange);
+}
+.btn-cyan {
+  color: var(--dark-cyan);
+}
+.btn-dark-cyan {
+  color: var(--very-dark-cyan);
+}
+
+/* Sections */
+.container {
+  overflow: hidden;
+  line-height: 2rem;
+  border-radius: 20px;
+  max-width: 74rem;
+  margin: 4rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  color: var(--transparent-white);
+  padding: 4rem;
+  flex: 1 1 22rem;
+}
+
+.orange {
+  background-color: var(--bright-orange);
+}
+.cyan {
+  background-color: var(--dark-cyan);
+}
+.dark-cyan {
+  background-color: var(--very-dark-cyan);
+}
+
+@media screen and (max-width: 795px) {
+  .btn {
+    margin: 1rem 0 0;
+  }
+  .container {
+    flex-direction: column;
+    max-width: 26rem;
+  }
+}
