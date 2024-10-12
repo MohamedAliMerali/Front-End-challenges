@@ -6,9 +6,9 @@
 
 ## 3 Column Preview Card Component
 
-![3 Column Preview Card Component](Screenshots\13-3-Column-Preview-Card-Component.png)
+![3 Column Preview Card Component](./Screenshots/13-3-Column-Preview-Card-Component.png)
 
-![3 Column Preview Card Component](Screenshots\13-3-Column-Preview-Card-Component-mobile.png)
+![3 Column Preview Card Component](./Screenshots/13-3-Column-Preview-Card-Component-mobile.png)
 
 ## Stats preview card component
 
