@@ -14,7 +14,7 @@
 
 ![Stats preview card component](./Screenshots/11-desktopView.png)
 
-![Stats preview card component](./Screenshots/12-mobileView.png)
+![Stats preview card component](./Screenshots/12-mobileview.png)
 
 ## NFT preview card component
 
